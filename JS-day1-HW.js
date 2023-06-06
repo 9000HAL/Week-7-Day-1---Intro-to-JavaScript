@@ -14,22 +14,22 @@ function findWords(dog_string, dog_names) {
     for (let i = 0; i < dog_names.length; i++) {
 
         //check if current name in the string
-        
-
+        if (dog_string.includes(dog_names[i])) {
+            console.log(`Matched ${dog_names[1]}`);
+        } else {
+            console.log("No Match");
+        }
     }
 }
 
 
-
-
+//"Call method here with parameters"
 let dog_string = "Hello Max, my name is Dog, and I have purple eyes!"
 let dog_names = ["Max","HAS","PuRple","dog"]
+//"Your code goes here"
+findWords(dog_string, dog_names);
 
-function findWords(){
-    //Your code goes here
-}
 
-//Call method here with parameters
 
 
 
