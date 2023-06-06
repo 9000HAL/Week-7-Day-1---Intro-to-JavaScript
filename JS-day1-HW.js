@@ -42,19 +42,6 @@ function findWords(dog_string, dog_names) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //============Exercise #2 ============//
 
 
