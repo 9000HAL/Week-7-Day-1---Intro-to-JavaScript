@@ -88,5 +88,31 @@ var output = greet(name);
 console.log(output);
 
 
+//Console Output:
+//"Hello, Gabe how are you doing today?"
+
+
+
 
 //==================CODEWARS Problem #2 ==========//
+
+// CODEWARS/PYTHON PROBLEM #2 LINK: https://www.codewars.com/kata/reviews/53e924b26e9a01bd68000148/groups/647fa62487d6c90001f5b5b6
+
+// DEFINE function multiplies two numbers
+function multiply(a, b) {
+    // Perform multiplication
+    var result = a * b;
+    return result;
+  }
+  
+  // CALL function with parameters
+  var a = 4;
+  var b = 5;
+  var output = multiply(a, b);
+  
+  // Display the output
+  console.log(output);
+
+
+//Console Output:
+//20
