@@ -1,22 +1,48 @@
 // Testing javascript link through web console
+console.log('testing');
+
+
 
 // Multi-line Comment
+/*
+
+comment 
+
+*/
+
 
 // Declaring a variable using var (the old way)
+var number = 5;
+console.log(num);
+
+
 
 // Reassigning values
 
+num = 3;
+console.log(num);
+
 // Use semicolons at the end of your JS code (Or not...)
+
+
 
 // Use the typeof operator to see a data type
 
+var x = 3;
+var float = 3.14;
+console.log(typeof Int16A,) //see pic
+
 // strings in js
 
-// Arrays AKA Python Lists
 
+// Arrays AKA Python Lists
+var students = 
+console
 // Objects AKA Python Dicts
 
 // Hoisting
+
+//     ----------------------SEE RECORDING
 
 /* 
 - NOTE: Instead of using VAR to define variables, use LET and CONST (Modern Way)
@@ -31,36 +57,63 @@ for re-declaration.
 */
 
 // let
+let last_name = 'askew'
+console.log(last_name)
+
+
 
 // const
+
+const full_name = 'Christian Askew'
+console.log(last_name)
 
 // ------------------------ Math Operations ----------------------------
 
 // Addition
+let sum = 5 + 5;
+console.log(sum)
 
 // Incrementing
 
+
 // Increment by 1
 
+
+
 // Subtraction
+let diff = 12-3;
+console.log(diff)
+
 
 // Decrement by 1
 
+
 // Decrementing
+
+
 
 // Multiplication
 
+
 // Division
+
 
 // Exponents
 
 // ---------- Math is a built-in for javascript ---------------
 
 // Math.floor()
+let floor = math.floor(12.56)
+console.log(floor)
+
 
 // Math.ceil()
 
+
+
+
 // Watch out for these behaviors when adding number and strings
+
 
 // -------------- Javascript Functions ----------------------
 // Function Declaration, Function Expression, Arrow Function (ES6)
@@ -70,18 +123,42 @@ for re-declaration.
 // Function Declaration
 // Very similar to Python
 
+function fullName
+
 // Function Expression
+
+const nflTeam = 
+
 
 // Arrow Function (ES6)
 
+const goatPlayer = (name) => {
+    return 
+
+
+}
+
+
+
+
 // -------------------- if, else if, else conditional statements -----------------------
 // syntax: if (condition) { code block ran if true }
+
+
+
+
 
 
 // ------------------------- Ternary Operators -------------------------
 // Python: (run_this_code_on_true) if (condition) else (run_this_code_on_false)
 // JS: (Condition) ? (run_this_code_on_true) : (run_this_code_on_false)
 
+
+const oddOrEven = (num) => {
+
+
+    
+}
 
 // ------------------------- JS Loops --------------------------------
 // ----- For Loops -----
