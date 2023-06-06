@@ -7,28 +7,36 @@ the list and checks that the current name is in the string passed in. The output
 */
 
 
-//define function that checks for matches
+// Define the function that checks for matches
 function findWords(dog_string, dog_names) {
-
-    //loop thru list of dog names
+    // Loop through the list of dog names
     for (let i = 0; i < dog_names.length; i++) {
-
-        //check if current name in the string
-        if (dog_string.includes(dog_names[i])) {
-            console.log(`Matched ${dog_names[1]}`);
-        } else {
-            console.log("No Match");
-        }
+      // Check if the current name is present in the string
+      if (dog_string.includes(dog_names[i])) {
+        console.log(`Matched ${dog_names[i]}`);
+      } else {
+        console.log("No Match");
+      }
     }
-}
-
-
-//"Call method here with parameters"
-let dog_string = "Hello Max, my name is Dog, and I have purple eyes!"
-let dog_names = ["Max","HAS","PuRple","dog"]
-//"Your code goes here"
-findWords(dog_string, dog_names);
-
+  }
+  
+  // Call the function with the provided parameters
+  let dog_string = "Hello Max, my name is Dog, and I have purple eyes!";
+  let dog_names = ["Max", "HAS", "PuRple", "dog"];
+  findWords(dog_string, dog_names);
+  
+  
+//CONSOLE OUTPUT
+/*
+"Matched Max"
+"No Match"
+"No Match"
+"No Match"
+"Matched Max"
+"No Match"
+"No Match"
+"No Match"
+*/
 
 
 
