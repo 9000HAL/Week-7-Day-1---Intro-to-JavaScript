@@ -1,5 +1,12 @@
 // Testing javascript link through web console
-console.log('testing');
+//console.log('testing')
+
+//console.log('testing')
+
+
+
+
+
 
 // Multi-line Comment
 /*
@@ -9,40 +16,53 @@ multiline
 comment
 */
 
+
+
+
 // Declaring a variable using var (the old way)
+
+//var num = 5;
+//console.log(num)
+
 var num = 5;
 console.log(num);
 
+
 // Reassigning values
+//num = 3;
+//console.log(num);
+
 num = 3;
-console.log(num);
+console.log(num)
+
+
 
 // Use semicolons at the end of your JS code (Or not...)
 
 // Use the typeof operator to see a data type
-var int = 3
-var float = 3.14
-console.log(typeof int,typeof float) 
+//var int = 3
+//var float = 3.14
+//console.log(typeof int,typeof float) 
 
 // strings in js
-var first_name = 'christian'
-console.log(first_name)
+//var first_name = 'christian'
+//console.log(first_name)
 
 // Arrays AKA Python Lists
-var students = ['gabe', 'sean', 'peace']
-console.log(typeof students)
+//var students = ['gabe', 'sean', 'peace']
+//console.log(typeof students)
 
 // Objects AKA Python Dicts
-var bio = {
-    'first name': 'dylan',
-    age: 1000,
-    location: 'USA'
-}
+//var bio = {
+//    'first name': 'dylan',
+//    age: 1000,
+//    location: 'USA'
+//}
 
 // Hoisting
-console.log(hoist)
-var hoist = "I am hoisted"
-console.log(hoist)
+//console.log(hoist)
+//var hoist = "I am hoisted"
+//console.log(hoist)
 
 /* 
 - NOTE: Instead of using VAR to define variables, use LET and CONST (Modern Way)
@@ -55,6 +75,9 @@ for re-declaration.
 - let: allows for reassignment of values (Just like Python)
 - const: does NOT allow for reassignment of values 
 */
+
+
+/*
 
 // let
 let last_name = 'askew'
@@ -243,3 +266,6 @@ console.log(artists)
 // syntax: array.splice(start, end)
 console.log(artists.splice(3))
 console.log(artists)
+
+
+*/
