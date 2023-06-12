@@ -33,13 +33,20 @@ console.log(num);
 //console.log(num);
 
 num = 3;
-console.log(num)
-
+console.log(num);
 
 
 // Use semicolons at the end of your JS code (Or not...)
 
+
+
 // Use the typeof operator to see a data type
+var int = 3;
+var float = 3.14;
+console.log(typeof int, typeof float);
+
+
+
 //var int = 3
 //var float = 3.14
 //console.log(typeof int,typeof float) 
