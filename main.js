@@ -45,8 +45,6 @@ var int = 3;
 var float = 3.14;
 console.log(typeof int, typeof float);
 
-
-
 //var int = 3
 //var float = 3.14
 //console.log(typeof int,typeof float) 
@@ -54,22 +52,49 @@ console.log(typeof int, typeof float);
 // strings in js
 //var first_name = 'christian'
 //console.log(first_name)
+var first_name = 'christian';
+console.log(first_name);
+
 
 // Arrays AKA Python Lists
 //var students = ['gabe', 'sean', 'peace']
 //console.log(typeof students)
 
+var students = ['gabe', 'sean', 'peace']
+console.log(students)
+
+var students = ['gabe', 'sean', 'peace']
+console.log(typeof students)
+
 // Objects AKA Python Dicts
+
 //var bio = {
 //    'first name': 'dylan',
 //    age: 1000,
 //    location: 'USA'
 //}
 
+var bio = {
+    'first name' : 'dylan',
+    age: 1000,
+    location: 'USA'
+}
+console.log(bio)
+
+
+
 // Hoisting
 //console.log(hoist)
 //var hoist = "I am hoisted"
 //console.log(hoist)
+
+console.log(hoist)
+var hoist = "I am hoisted"
+console.log(hoist)
+
+
+
+
 
 /* 
 - NOTE: Instead of using VAR to define variables, use LET and CONST (Modern Way)
