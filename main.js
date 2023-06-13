@@ -264,25 +264,47 @@ console.log(typeof result, result)
 
 
 
-/*
 
 // -------------- Javascript Functions ----------------------
 // Function Declaration, Function Expression, Arrow Function (ES6)
 // NOTE: Indentation does NOT matter in JS, but its good practice.
 // We use curly braces to keep track of scope instead.
 
+
+
+
 // Function Declaration
 // Very similar to Python
+
+
+function fullName(firstName, lastName){
+    console.log(firstName + ' ' + lastName)
+};
+fullName('Sean', 'B.');
+
+
+//"THE WAY YOU ACTUALLY WRITE IT BELOW"//////////////////////////////
 function fullName(firstName, lastName){
     return firstName + ' ' + lastName
-}
-console.log(fullName('Sean', 'B.'))
+};
+console.log(fullName('Sean', 'B.'));
+
+
+
+
+
 
 // Function Expression
 const nflTeam = function(city, name){
     return city + ' ' + name
 }
 console.log(nflTeam('seattle', 'seahawks'))
+
+
+
+
+
+/*
 
 // Arrow Function (ES6)
 const goatPlayer = (name) => {
