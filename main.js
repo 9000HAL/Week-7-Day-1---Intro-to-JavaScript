@@ -273,7 +273,8 @@ console.log(typeof result, result)
 
 
 
-// Function Declaration
+// Function Declaration //"THE WAY PEOPLE ACTUALLY WRITE IT BELOW"//////////////////////////////
+
 // Very similar to Python
 
 
@@ -291,10 +292,14 @@ console.log(fullName('Sean', 'B.'));
 
 
 
+// Function Expression////PEOPLE DONT ACTUALLY WRITE IT LIKE THIS/////////
+
+//const nflTeam = function(city, name){
+//    return city + ' ' + name
+//}
+//console.log(nflTeam('seattle', 'seahawks'))
 
 
-
-// Function Expression
 const nflTeam = function(city, name){
     return city + ' ' + name
 }
@@ -302,16 +307,27 @@ console.log(nflTeam('seattle', 'seahawks'))
 
 
 
+//////////////////// Arrow Function (ES6)
+
+const goatPlayer = (name) => {
+
+
+
+}
+
+/*
+const goatPlayer = (name) => {
+    return `The goat will always be ${name}.`
+}
+console.log(goatPlayer('michael jordan'))
+
+
+
+
 
 
 /*
 
-// Arrow Function (ES6)
-const goatPlayer = (name) => {
-    return `The goat will always be ${name}.`
-}
-
-console.log(goatPlayer('michael jordan'))
 // -------------------- if, else if, else conditional statements -----------------------
 // syntax: if (condition) { code block ran if true }
 
