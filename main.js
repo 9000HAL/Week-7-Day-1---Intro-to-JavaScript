@@ -83,16 +83,30 @@ console.log(bio)
 
 
 
-// Hoisting
+// "HOISTING"
+/*DEFINITION: 
+Hoisting is a concept in JavaScript that refers to the fact that all variable declarations and function declarations are moved to the top of their scope, even if they are not actually used until later in the code. This means that you can refer to a variable or function before it is declared, and the code will still work.
+
+For example, the following code will work even though the foo variable is not declared until after the console.log() statement:
+
+var foo = 'bar';
+console.log(foo);
+
+This is because the foo variable is hoisted to the top of the scope, even though it is not actually used until later in the code.
+
+Hoisting can be a useful concept to understand, as it can help you to write more concise and readable code.
+*/
+
 //console.log(hoist)
 //var hoist = "I am hoisted"
 //console.log(hoist)
 
-console.log(hoist)
-var hoist = "I am hoisted"
-console.log(hoist)
+console.log(hoist) 
+var hoist = "I am hoisted" //CONSOLE: "UNDEFINED"
+console.log(hoist) //CONSOLE: "I am hoisted"
 
-
+var hoist = "I am hoisted again oops"
+console.log(hoist)
 
 
 
@@ -109,80 +123,148 @@ for re-declaration.
 */
 
 
-/*
-
 // let
-let last_name = 'askew'
-console.log(last_name)
-last_name = 'katina'
-console.log(last_name)
+// let last_name = 'askew'
+// console.log(last_name)
+// last_name = 'katina'
+// console.log(last_name)
+
+let last_name = 'askew';
+console.log(last_name);
+// let last_name = 'katina' CONSOLE: "Uncaught SyntaxError: Identifier 'last_name' has already been declared (at main.js:136:5)"
+last_name = 'katina';
+console.log(last_name);
+
+
 
 // const
-const full_name = 'christian askew'
-console.log(full_name)
+//const full_name = 'christian askew'
+//console.log(full_name)
+
+const full_name = 'christian askew';
+// full_name = 'dylan katina' CONSOLE: Uncaught TypeError: Assignment to constant variable.
+console.log(full_name);
+
+
 
 // ------------------------ Math Operations ----------------------------
 
 // Addition
+// let sum = 5 + 5;
+// console.log(sum);
+
 let sum = 5 + 5;
-console.log(sum)
+console.log(sum);
+
 
 // Incrementing
-sum+=3
-console.log(sum)
+//sum+=3
+//console.log(sum)
+sum+=3;
+console.log(sum);
+
 
 // Increment by 1
-sum++
-console.log(sum)
+sum++;
+console.log(sum);
+
+sum++;
+console.log(sum);
+
+
 
 // Subtraction
+//let diff = 12-3;
+//console.log(diff)
+
 let diff = 12-3;
-console.log(diff)
+console.log(diff);
+
+
 
 // Decrement by 1
-diff--
-console.log(diff)
+diff--;
+console.log(diff);
+
+diff--;
+console.log(diff);
+
 
 // Decrementing
 diff-=2
 console.log(diff)
 
+diff-=2;
+console.log(diff);
+
+
+
 // Multiplication
-let product = 5 * 2
+//let product = 5 * 2
+//console.log(product);
+
+let product = 5 * 2;
 console.log(product);
+
 
 product *= 2
 console.log(product)
 
-// Division
-let quotient = 20 / 4
-console.log(quotient)
+product *= 4;
+console.log(product);
 
-quotient /= 2
+
+
+// Division
+let quotient = 20 / 4;
 console.log(quotient);
+
+quotient /= 2;
+console.log(quotient);
+
+
 
 // Exponents
 let expo = 5**2;
 console.log(expo);
 
+
 expo **= 2;
-console.log(expo)
+console.log(expo);
+
+
+
+
 
 // ---------- Math is a built-in for javascript ---------------
 
 // Math.floor()
-let floor = Math.floor(12.56)
-console.log(floor)
+let floor = Math.floor(12.56);
+console.log(floor);
+
+
+
+
+
+
 
 // Math.ceil()
-let ceil = Math.ceil(12.56)
-console.log(ceil)
+let ceil = Math.ceil(12.56);
+console.log(ceil);
+
+
+
 
 // Watch out for these behaviors when adding number and strings
 let dylan_fav_num = 18
 let will_fav_num = '12'
-let result = dylan_fav_num + will_fav_num
+let result = dylan_fav_num + will_fav_num  //CONSOLE: string 1812
 console.log(typeof result, result)
+
+
+
+
+/*
 
 // -------------- Javascript Functions ----------------------
 // Function Declaration, Function Expression, Arrow Function (ES6)
