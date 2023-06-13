@@ -309,18 +309,18 @@ console.log(nflTeam('seattle', 'seahawks'))
 
 //////////////////// Arrow Function (ES6)
 
-const goatPlayer = (name) => {
-
-
-
-}
-
 /*
+const goatPlayer = (name) => {
+    return "The goat will always be " + name + "."
+};
+console.log(goatPlayer('Gabe'));
+
+*/
+
 const goatPlayer = (name) => {
     return `The goat will always be ${name}.`
 }
 console.log(goatPlayer('michael jordan'))
-
 
 
 
