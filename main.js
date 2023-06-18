@@ -351,21 +351,31 @@ for(let i = 0; i < 10; i++){
     console.log(i)
 }
 
+/*
 // loop through an array
 let students2 = ['caden', 'will', 'gabe']
 for(let i = 0; i < students2.length; i++){
     console.log(students2[i])
 }
 
+
+
 // loop through an array with for-of loop (values) (ES6)
+let students2 = ['caden', 'will', 'gabe']
 for(let name of students2){
     console.log(name)
 }
 
+*/
+
 // loop through an array with for-in loop (indices) (ES6)
+
+let students2 = ['caden', 'will', 'gabe']
 for(let i in students2){
     console.log(parseInt(i))
 }
+
+
 
 // ----- While Loops -----
 num = 0
@@ -374,6 +384,7 @@ while (num < 10){
     num+=2
 }
 
+
 // Do-While
 // Syntax: do {code block} while (condition)
 num = 15
@@ -381,7 +392,10 @@ do {
     console.log(num)
     num++
 } while (num < 10)
+
 // NOTE: It is guaranteed to run once
+
+
 
 // -------------------- More JS Array Practice & Methods -----------------------
 let artists = ['Kendrick Lamar', 'Bruno Mars', 'Chris Brown']
