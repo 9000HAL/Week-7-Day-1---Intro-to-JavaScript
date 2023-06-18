@@ -1,11 +1,6 @@
 // Testing javascript link through web console
 //console.log('testing')
-
-//console.log('testing')
-
-
-
-
+console.log('testing');
 
 
 // Multi-line Comment
@@ -17,8 +12,6 @@ comment
 */
 
 
-
-
 // Declaring a variable using var (the old way)
 
 //var num = 5;
@@ -28,12 +21,14 @@ var num = 5;
 console.log(num);
 
 
+
 // Reassigning values
 //num = 3;
 //console.log(num);
 
 num = 3;
 console.log(num);
+
 
 
 // Use semicolons at the end of your JS code (Or not...)
@@ -45,15 +40,19 @@ var int = 3;
 var float = 3.14;
 console.log(typeof int, typeof float);
 
+
 //var int = 3
 //var float = 3.14
 //console.log(typeof int,typeof float) 
+
 
 // strings in js
 //var first_name = 'christian'
 //console.log(first_name)
 var first_name = 'christian';
 console.log(first_name);
+
+
 
 
 // Arrays AKA Python Lists
@@ -131,7 +130,7 @@ for re-declaration.
 
 let last_name = 'askew';
 console.log(last_name);
-// let last_name = 'katina' CONSOLE: "Uncaught SyntaxError: Identifier 'last_name' has already been declared (at main.js:136:5)"
+// let last_name = 'katina'
 last_name = 'katina';
 console.log(last_name);
 
@@ -142,7 +141,6 @@ console.log(last_name);
 //console.log(full_name)
 
 const full_name = 'christian askew';
-// full_name = 'dylan katina' CONSOLE: Uncaught TypeError: Assignment to constant variable.
 console.log(full_name);
 
 
@@ -168,8 +166,7 @@ console.log(sum);
 sum++;
 console.log(sum);
 
-sum++;
-console.log(sum);
+
 
 
 
@@ -183,19 +180,15 @@ console.log(diff);
 
 
 // Decrement by 1
-diff--;
-console.log(diff);
 
 diff--;
 console.log(diff);
+
 
 
 // Decrementing
 diff-=2
 console.log(diff)
-
-diff-=2;
-console.log(diff);
 
 
 
@@ -204,11 +197,9 @@ console.log(diff);
 //console.log(product);
 
 let product = 5 * 2;
+product *= 2
 console.log(product);
 
-
-product *= 2
-console.log(product)
 
 product *= 4;
 console.log(product);
@@ -300,6 +291,7 @@ console.log(fullName('Sean', 'B.'));
 //console.log(nflTeam('seattle', 'seahawks'))
 
 
+//"THE WAY YOU ACTUALLY WRITE IT BELOW"//////////////////////////////
 const nflTeam = function(city, name){
     return city + ' ' + name
 }
@@ -326,7 +318,7 @@ console.log(goatPlayer('michael jordan'))
 
 
 
-/*
+
 
 // -------------------- if, else if, else conditional statements -----------------------
 // syntax: if (condition) { code block ran if true }
@@ -420,4 +412,4 @@ console.log(artists.splice(3))
 console.log(artists)
 
 
-*/
+

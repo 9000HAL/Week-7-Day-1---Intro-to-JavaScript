@@ -11,8 +11,8 @@ comment
 */
 
 
-// Declaring a variable using var (the old way)
-var number = 5;
+// Declaring a variable using var (the old way)******************************
+var num = 5;
 console.log(num);
 
 
@@ -30,7 +30,8 @@ console.log(num);
 
 var x = 3;
 var float = 3.14;
-console.log(typeof Int16A,) //see pic
+console.log(typeof Int16A,) //see pic --------!?!?!?!?!?!?!
+
 
 // strings in js
 
