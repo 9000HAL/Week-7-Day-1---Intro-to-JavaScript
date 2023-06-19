@@ -64,7 +64,7 @@ function replaceEvens(arr) {
   console.log("Output arr == ", outputArr);
 
 
-//CONSOLE OUTPUT
+//CONSOLE OUTPUT:
 // ["even index","Baseball","even index","Goku","even index","Rodger"]
 
 
