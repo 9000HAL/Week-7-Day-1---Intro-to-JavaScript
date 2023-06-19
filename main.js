@@ -397,8 +397,12 @@ do {
 
 
 
+
+
 // -------------------- More JS Array Practice & Methods -----------------------
-let artists = ['Kendrick Lamar', 'Bruno Mars', 'Chris Brown']
+//let artists = ['Kendrick Lamar', 'Bruno Mars', 'Chris Brown']
+//console.log(artists.join('$'))
+
 
 // index
 console.log(artists[1])
@@ -416,14 +420,16 @@ console.log(artists.join('$'))
 
 // slice method (Out of place algo), does NOT effect the original Array
 // syntax: array.slice(start, end)
-console.log(artists.slice(0,2))
-console.log(artists)
+//let artists = ['Kendrick Lamar', 'Bruno Mars', 'Chris Brown', 'gabe']
+console.log(artists.slice(0,3))
+//OUTPUT:
+[ 'Kendrick Lamar', 'Bruno Mars', 'Chris Brown' ] ////start at 0 and end right before "3" gabe
 
 
 // splice method (in place algo), does effect the original Array
 // syntax: array.splice(start, end)
+let artists = ['Kendrick Lamar', 'Bruno Mars', 'Chris Brown', 'gabe']
 console.log(artists.splice(3))
-console.log(artists)
 
 
 
